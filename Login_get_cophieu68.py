@@ -11,9 +11,9 @@ driver.get('https://www.cophieu68.vn/account/login.php')
 #wait for loading about 5s
 driver.implicitly_wait(10)
 # Enter user
-driver.find_element_by_xpath('//*[@id="begin_header"]/table/tbody/tr/td[5]/form/table/tbody/tr[4]/td[2]/input').send_keys("quydd56@gmail.com")
+driver.find_element_by_xpath('//*[@id="begin_header"]/table/tbody/tr/td[5]/form/table/tbody/tr[4]/td[2]/input').send_keys()
 #Enter pass
-driver.find_element_by_xpath('//*[@id="begin_header"]/table/tbody/tr/td[5]/form/table/tbody/tr[5]/td[2]/input').send_keys("151993")
+driver.find_element_by_xpath('//*[@id="begin_header"]/table/tbody/tr/td[5]/form/table/tbody/tr[5]/td[2]/input').send_keys()
 # submit
 driver.find_element_by_xpath('//*[@id="begin_header"]/table/tbody/tr/td[5]/form/table/tbody/tr[7]/td[2]/input').click()
 # change the <path_to_place_downloaded_file> to your directory where you would like to place the downloaded file

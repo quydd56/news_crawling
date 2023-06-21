@@ -7,7 +7,7 @@ import time
 server = 'DESKTOP-Q21C3LU\SQLEXPRESS'
 database = 'stockdata_qdd'
 username = 'sa'
-password = 'abc@1234'
+password = 
 cnxn = pyodbc.connect(
     'DRIVER={SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
 cursor = cnxn.cursor()
